@@ -5,8 +5,8 @@ import Image from 'next/image'
 type Props = {
   type: 'button' | 'submit'
   title: string
-  icon: string
-  variant: 'btn_white' | 'btn_green' | 'btn_dark_green'
+  icon?: string
+  variant: string
 }
 
 const Button = ({ type, title, icon, variant }: Props) => {
